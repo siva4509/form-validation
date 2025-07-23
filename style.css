@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cls1 {
+    background: #1E68FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cls2 {
+    background-color: #fff;
+    padding: 30px 35px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 520px;
+}
+
+.cls2 h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2c2c2c;
+}
+
+.cls2 label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    display: block;
+    color: #333;
+}
+
+.cls2 input[type="text"],
+.cls2 input[type="email"],
+.cls2 input[type="number"],
+.cls2 input[type="password"] {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.cls2 input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.valid {
+    border-color: green !important;
+}
+
+.invalid {
+    border-color: red !important;
+}
+
+.error-message {
+    font-size: 13px;
+    color: red;
+    margin-top: 4px;
+    margin-bottom: -10px;
+}
+
+.cls2 button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cls2 button:hover {
+    background-color: #0056b3;
+}
